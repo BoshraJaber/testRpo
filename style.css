@@ -1,0 +1,84 @@
+*{
+    box-sizing: border-box;
+}
+  
+body {
+    background-color: silver;
+  
+}
+main{
+    max-width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+  
+main > *{
+    float:left;
+}
+
+
+aside{ 
+    padding-left: 30px;
+}
+  
+img {
+    max-height: 200px;
+    width: 300px;
+    margin: 0 auto;
+}
+
+  section div {
+    padding: 7px;
+    box-sizing: border-box;
+    float: left;
+    width: 33%;
+ }
+ main{
+     text-align: center;
+ }
+ /* Adding some animation */
+ @keyframes heading {
+    0%   {background-color: red;}
+    25%  {background-color: rgb(211, 58, 142);}
+    50%  {background-color: rgb(177, 24, 62);}
+    100% {background-color: rgb(248, 87, 108);}
+  }
+
+  h1 {
+    width: auto;
+    height: 50px;
+    background-color: red;
+    animation-name: heading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-style: italic;
+    padding-top: 5px;
+
+  }
+
+/* adding styling to the button  */
+button {
+    background-color: #24bb81;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration:dotted;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition: all 0.5s;
+}
+button:hover {
+    background-color: #4CAF50;
+    color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor:grab;
+    border-radius: 12px;
+}
+.button_banne{
+    display:inline;
+ }
+ h2{
+   color:rgb(177, 24, 62);
+   text-transform: capitalize;
+ }

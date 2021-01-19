@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab11- Bus Mall</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header></header>
+    <main>
+        <section id="all_products">
+            <h1>Please choose your favorite one of these images</h1>
+
+            <div id="left_product">
+                <img id="left_product_img" src="" alt="bag">
+
+                <h2 id="left_product_h2"></h2>
+            </div>
+
+            <div id="center_product">
+                <img id="center_product_img" src="" alt="bath room">
+
+                <h2 id="center_product_h2"></h2>
+
+            </div>
+
+            <div id="right_product">
+                <img id="right_product_img" src="" alt="banana">
+
+                <h2 id="right_product_h2"></h2>
+            </div>
+        </section>
+        <div id="button_banner">
+            <button id="clearLocalStorage">Reset Data</button>
+            <button id="show_Chart">Show Bar Chart</button>
+            <button id="show_Chart2">Show line-bar Chart</button>
+            <button id="result_button">Show Result</button>
+            <button onClick="window.location.reload();">Refresh Page</button>
+        </div>
+        <section id="buttom_section">
+        </section>
+        <section>
+            <canvas id="productChart" width="500" height="600"></canvas>
+        </section>
+        <section>
+            <canvas id="productChart2" width="500" height="600"></canvas>
+        </section>
+    </main>
+    <footer>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.4/dist/Chart.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
